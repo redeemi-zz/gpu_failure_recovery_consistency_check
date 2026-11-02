@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "redeemi-zz-dataplatform_jd481"
+name = "redeemi-zz-gpu_failure_recovery_consistency_check"
 version = "0.1.0"
 description = "在同一个输入里两两比对，检测数据平台工程师·GPU 故障与作业自愈相关的矛盾表述，把冲突双方原样并排呈现"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://redeemi-zz.github.io"
-Repository = "https://github.com/redeemi-zz/dataplatform_jd481"
-Issues = "https://github.com/redeemi-zz/dataplatform_jd481/issues"
+Repository = "https://github.com/redeemi-zz/gpu_failure_recovery_consistency_check"
+Issues = "https://github.com/redeemi-zz/gpu_failure_recovery_consistency_check/issues"
 
 [project.scripts]
-dataplatform_jd481 = "dataplatform_jd481:main"
+gpu_failure_recovery_consistency_check = "gpu_failure_recovery_consistency_check:main"
 
 [tool.setuptools]
-py-modules = ["dataplatform_jd481"]
+py-modules = ["gpu_failure_recovery_consistency_check"]
